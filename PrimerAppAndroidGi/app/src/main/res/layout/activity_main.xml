@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7E122"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/Main_TextView_ComoSeLlamaTuMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="¿Como se llama tu mascota?"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:id="@+id/Main_EditText_NombreIngresado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribir nombre"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Main_ButtonToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hacer Toast!" />
+
+
+</LinearLayout>
