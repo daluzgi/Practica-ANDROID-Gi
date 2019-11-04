@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#E985A6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Main_TV_MeLoggeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Me Loggeo"
+        android:textSize="40sp"
+        android:textColor="#FCF8F8"
+        android:fontFamily="monospace"/>
+
+    <EditText
+        android:id="@+id/Main_ET_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:paddingTop="90dp"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/Main_ET_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/Main_Button_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="LOGIN"/>
+
+    <Button
+        android:id="@+id/Main_Button_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="REGISTER"/>
+
+</LinearLayout>
